@@ -9,5 +9,9 @@ namespace TechJockeys.Data
             : base(options)
         {
         }
+
+
+        public DbSet<TechJockeys.Models.Category> Category { get; set; }
+        public DbSet<TechJockeys.Models.Product> Product { get; set; }
     }
 }
